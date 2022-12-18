@@ -5,4 +5,5 @@ nav:
     - Scriptum: scriptum.md
     # - About: about.md
 
+theme: readthedocs
 theme_dir: ezTheme

@@ -10,8 +10,15 @@ theme:
       primary: pink
 
 plugins:
-  - blog
+  - blog:
+    enabled: !ENV [CI, false]
+    blog_dir: path/to/folder
+    post_date_format: full
+
 
 nav:
   - Blog:
     - blog/index.md 
+
+
+

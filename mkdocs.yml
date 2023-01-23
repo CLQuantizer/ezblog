@@ -11,7 +11,7 @@ theme:
 
 nav:
   - Blog:
-    - blog/index.md 
+    - blog 
 
 plugins:
   - blog:

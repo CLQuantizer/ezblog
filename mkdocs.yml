@@ -1,5 +1,4 @@
-site_name: whatever works
-
+site_name: Ezio's tech blog
 repo_url: https://github.com/CLQuantizer/eztech
 extra_css:
   - stylesheets/extra.css
@@ -11,7 +10,8 @@ theme:
 
 nav:
   - Blog:
-    - blog/posts
+    - blog/index.md
+    - blog/posts/Rust.md
 
 plugins:
   - blog:

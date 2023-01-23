@@ -3,8 +3,11 @@ date: 2023-01-31
 authors:
   - ezio
 ---
-# **What is dumped when "core dumped"?**
+# Core dumped
 
+### I am asking two questions: 
+  - What is core? 
+  - Where is it dumped to?
 ## **A not so good explanation**
 
 Adapted from [geekforgeeks](https://www.geeksforgeeks.org/core-dump-segmentation-fault-c-cpp/):
@@ -42,7 +45,8 @@ Linux typically writes dump to "/var/lib/systemd/coredump" as file.
 Mac is very different.
 
 ## **Man 5 core** 
-Run ```man 5 core``` to see the following. It is crazy.
+Run ```man 5 core``` to see the following. It is crazy. [Marcin Orlowski's answer](https://stackoverflow.com/questions/2065912/core-dumped-but-core-file-is-not-in-the-current-directory) on stack overflow directed me here.
+
 ```
 NAME
        core - core dump file

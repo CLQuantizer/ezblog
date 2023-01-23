@@ -18,6 +18,5 @@ jobs:
         with:
           key: ${{ github.ref }}
           path: .cache
-      - run: poetry shell
-      - run: poetry install
+      - run: pip install mkdocs-material 
       - run: mkdocs gh-deploy --force

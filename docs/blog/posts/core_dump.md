@@ -41,37 +41,37 @@ Mac is very different.
 
 ## Man 5 core
 Run ```man 5 core``` to see the following. It is crazy.
-
-CORE(5)
-
+```
 NAME
        core - core dump file
 
 DESCRIPTION
-       The  default  action  of certain signals is to cause a process to terminate and produce a core dump file, a disk file containing an image of the process's memory at the time of termination.  This image can be used in a debugger (e.g., gdb(1)) to inspect the state of the program at the time that it terminated.   A  list  of  the signals which cause a process to dump core can be found in signal(7).
 
-       A process  can set its soft RLIMIT_CORE resource limit to place an upper limit on the size of the core dump file that will be produced if it receives a "core dump"
-       
-      There are various circumstances in which a core dump file is not produced:
+The  default  action  of certain signals is to cause a process to terminate and produce a core dump file, a disk file containing an image of the process's memory at the time of termination.  This image can be used in a debugger (e.g., gdb(1)) to inspect the state of the program at the time that it terminated.
 
-       *  The process does not have permission to write the core file.
+A  list  of  the signals which cause a process to dump core can be found in signal(7). A process  can set its soft RLIMIT_CORE resource limit to place an upper limit on the size of the core dump file that will be produced if it receives a "core dump"
 
-       *  A (writable, regular) file with the same name as would be used for the core dump already exists, but there is more than one hard link to that file.
+There are various circumstances in which a core dump file is not produced:
 
-       *  The filesystem where the core dump file would be created is full; or has run out of inodes; or is mounted read-only; or the user has reached their quota for the filesystem.
+-  The process does not have permission to write the core file.**
 
-       *  The directory in which the core dump file is to be created does not exist.
+-  A (writable, regular) file with the same name as would be used for the core dump already exists, but there is more than one hard link to that file.
 
-       *  The  RLIMIT_CORE  (core  file  size)  or  RLIMIT_FSIZE (file size) resource limits for the process are set to zero; see getrlimit(2) and the documentation of the shell's ulimit command (limit in csh(1)).
+-  The filesystem where the core dump file would be created is full; or has run out of inodes; or is mounted read-only; or the user has reached their quota for the filesystem.
 
-       *  The binary being executed by the process does not have read permission enabled.
+-  The directory in which the core dump file is to be created does not exist.
 
-       *  The process is executing a set-user-ID (set-group-ID) program that is owned by a user (group) other than the real user (group) ID of the process, or the  process is  executing  a  program that has file capabilities (see capabilities(7)).  (However, see the description of the prctl(2) PR_SET_DUMPABLE operation, and the description of the /proc/sys/fs/suid_dumpable file in proc(5).)
+-  The  RLIMIT_CORE  (core  file  size)  or  RLIMIT_FSIZE (file size) resource limits for the process are set to zero; see getrlimit(2) and the documentation of the shell's ulimit command (limit in csh(1)).
 
-       *  /proc/sys/kernel/core_pattern is empty and /proc/sys/kernel/core_uses_pid contains the value 0.  (These files are described below.)  Note that if  /proc/sys/ker‐nel/core_pattern  is  empty  and /proc/sys/kernel/core_uses_pid contains the value 1, core dump files will have names of the form .pid, and such files are hidden unless one uses the ls(1) -a option.
+-  The binary being executed by the process does not have read permission enabled.
 
-       *  (Since Linux 3.7) The kernel was configured without the CONFIG_COREDUMP option.
+-  The process is executing a set-user-ID (set-group-ID) program that is owned by a user (group) other than the real user (group) ID of the process, or the  process is  executing  a  program that has file capabilities (see capabilities(7)).  (However, see the description of the prctl(2) PR_SET_DUMPABLE operation, and the description of the /proc/sys/fs/suid_dumpable file in proc(5).)
 
-       In addition, a core dump may exclude part of the address space of the process if the madvise(2) MADV_DONTDUMP flag was employed.
+-  /proc/sys/kernel/core_pattern is empty and /proc/sys/kernel/core_uses_pid contains the value 0.  (These files are described below.)  Note that if  /proc/sys/ker‐nel/core_pattern  is  empty  and /proc/sys/kernel/core_uses_pid contains the value 1, core dump files will have names of the form .pid, and such files are hidden unless one uses the ls(1) -a option.
 
-       On systems that employ systemd(1) as the init framework, core dumps may instead be placed in a location determined by systemd(1).  See below for further details.
+-  (Since Linux 3.7) The kernel was configured without the CONFIG_COREDUMP option.
+
+In addition, a core dump may exclude part of the address space of the process if the madvise(2) MADV_DONTDUMP flag was employed.
+
+On systems that employ systemd(1) as the init framework, core dumps may instead be placed in a location determined by systemd(1).  See below for further details.
+```

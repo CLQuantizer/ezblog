@@ -1,5 +1,5 @@
 site_name: Ezio's tech blog
-repo_url: https://github.com/CLQuantizer/eztech
+repo_url: https://github.com/CLQuantizer/ezblog
 extra_css:
   - stylesheets/extra.css
 

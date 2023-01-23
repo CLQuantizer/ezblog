@@ -8,12 +8,16 @@ theme:
     name: material
     palette:
       primary: pink
-plugins:
-  - blog:
 
 nav:
   - Blog:
     - blog/index.md 
 
+plugins:
+  - blog:
+      enabled: !ENV [CI, false]
 
+plugins:
+  - blog:
+      post_url_date_format: yyyy/MM/dd
 

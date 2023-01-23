@@ -3,7 +3,9 @@ date: 2023-01-31
 authors:
   - ezio
 ---
-#What is dumped when "core dumped"?
+**#What is dumped when "core dumped"?**
+
+**## A not so good explanation**
 
 Adapted from [geekforgeeks](https://www.geeksforgeeks.org/core-dump-segmentation-fault-c-cpp/):
 
@@ -31,7 +33,7 @@ In computing, a core dump **consists of the recorded state of the working memory
 In practice, the program counter and stack pointer, and operating system flags and information are dumped too. They can be used in diagnosing and debugging errors in computer programs.
 
 
-## Extra bit from wikipedia
+**## Extra bit from wikipedia**
 Magnetic-core memory was the mainstream random-access memory 1950-1970. The name has long outlived the technology.
 
 Earliest core dumps were paper printouts of Strings representing the content of the memeory. Later they were written to tapes and disks.
@@ -39,7 +41,7 @@ Earliest core dumps were paper printouts of Strings representing the content of 
 Linux typically writes dump to "/var/lib/systemd/coredump" as file.
 Mac is very different.
 
-## Man 5 core
+**## Man 5 core** 
 Run ```man 5 core``` to see the following. It is crazy.
 ```
 NAME

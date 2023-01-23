@@ -21,7 +21,7 @@ theme:
 
 nav:
   - blog/posts/Rust.md
-  - blog/posts/vite.js.md
+  - blog/posts/core_dump.md
 
 plugins:
   - blog:

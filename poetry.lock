@@ -121,6 +121,14 @@ i18n = ["babel (>=2.9.0)"]
 min-versions = ["babel (==2.9.0)", "click (==7.0)", "colorama (==0.4)", "ghp-import (==1.0)", "importlib-metadata (==4.3)", "jinja2 (==2.11.1)", "markdown (==3.2.1)", "markupsafe (==2.0.1)", "mergedeep (==1.3.4)", "packaging (==20.5)", "pyyaml (==5.1)", "pyyaml-env-tag (==0.1)", "typing-extensions (==3.10)", "watchdog (==2.0)"]
 
 [[package]]
+name = "mkdocs-blog-plugin"
+version = "0.25"
+description = "Keeps a really simple blog section inside your MkDocs site."
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
 name = "mkdocs-material"
 version = "9.0.6"
 description = "Documentation that simply works"
@@ -268,7 +276,7 @@ watchmedo = ["PyYAML (>=3.10)"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.10"
-content-hash = "2fd9f146b7856c40d9e1b16198b3e1a551b1f0761ccfc3358b6e2c77b97d24bc"
+content-hash = "b479bab9280aa87d094a1c3db59d9afdd0056752b0a40cb2db5d085251756660"
 
 [metadata.files]
 certifi = [
@@ -438,6 +446,9 @@ mergedeep = [
 mkdocs = [
     {file = "mkdocs-1.4.2-py3-none-any.whl", hash = "sha256:c8856a832c1e56702577023cd64cc5f84948280c1c0fcc6af4cd39006ea6aa8c"},
     {file = "mkdocs-1.4.2.tar.gz", hash = "sha256:8947af423a6d0facf41ea1195b8e1e8c85ad94ac95ae307fe11232e0424b11c5"},
+]
+mkdocs-blog-plugin = [
+    {file = "mkdocs-blog-plugin-0.25.tar.gz", hash = "sha256:36dcd804f6ab1314d19c32e46bf21076d5f4425e1bca22f2e735b9b4baaec836"},
 ]
 mkdocs-material = [
     {file = "mkdocs_material-9.0.6-py3-none-any.whl", hash = "sha256:4a71195ddc100dddf07d4b23b53373f36c5f0f1010fa4ea301ca7a8e949dd9e7"},

@@ -10,4 +10,10 @@ extra_css:
 
 theme:
     name: material
-    custom_dir: overrides
+    palette:
+      primary: pink
+        - scheme: default
+          toggle:
+          icon: material/brightness-7 
+          name: Switch to dark mode
+

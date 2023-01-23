@@ -1,9 +1,10 @@
 ---
+draft: true 
 date: 2023-01-31
-authors:
-  - ezio
+categories:
+  - Rust
 ---
 
-## I love Rust and I love async
+## I want to learn Rust
 
 Here are things that I love about Rust

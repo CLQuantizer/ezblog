@@ -4,16 +4,19 @@ extra_css:
   - stylesheets/extra.css
 
 theme:
+    logo: assets/logo.png
     name: material
     palette:
       primary: pink
 
 nav:
-  - Posts:
-    - blog/posts/Rust.md
+  - blog/posts/Rust.md
+  - blog/posts/vite.js.md
 
 plugins:
   - blog:
       post_url_date_format: yyyy/MM/dd
+
+      
       
 

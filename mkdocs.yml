@@ -1,8 +1,4 @@
 site_name: whatever works
-nav:
-    - Home: index.md
-    - Scriptum: scriptum.md
-    # - About: about.md
 
 repo_url: https://github.com/CLQuantizer/eztech
 extra_css:
@@ -12,3 +8,10 @@ theme:
     name: material
     palette:
       primary: pink
+
+plugins:
+  - blog
+
+nav:
+  - Blog:
+    - blog/index.md 

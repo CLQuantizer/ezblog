@@ -1,4 +1,4 @@
-site_name: Ezio's tech blog
+site_name: Ezio's blog
 repo_url: https://github.com/CLQuantizer/ezblog
 extra_css:
   - stylesheets/extra.css
@@ -20,6 +20,7 @@ theme:
           name: Switch to light mode
 
 nav:
+  - index.md
   - blog/posts/Rust.md
   - blog/posts/core_dump.md
 

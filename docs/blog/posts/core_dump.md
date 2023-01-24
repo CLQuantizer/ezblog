@@ -44,6 +44,10 @@ Earliest core dumps were paper printouts of Strings representing the content of 
 Linux typically writes dump to "/var/lib/systemd/coredump" as file.
 Mac is very different.
 
+## **I still don't get it**
+I switched to ubuntu 20.04LTS, ran the aformentioned segfault programme, and then did not find the dump file.
+I don't understand why. This is the end.
+
 ## **Man 5 core** 
 Run ```man 5 core``` to see the following. It is crazy. [Marcin Orlowski's answer](https://stackoverflow.com/questions/2065912/core-dumped-but-core-file-is-not-in-the-current-directory) on stack overflow directed me here.
 

@@ -24,7 +24,7 @@ nav:
   - blog/posts/Rust.md
   - blog/posts/core_dump.md
   - blog/posts/post_construct.md
-	- blog/poetry
+	- blog/poetry/poetry.md
 
 plugins:
   - blog:

@@ -61,7 +61,7 @@ fn take_soul_of_prey(prey: String){
 ```
 It is quite clear that the soul of the prey ("Kaggle" of type String) is taken. But if the prey ain't got a soul, that is, if they are a integer of a cxxxxnist who do not live on the heap with normal people, they are fine.
 
-## Example 2: Ownership x Return values
+## Example 3: Ownership x Return values
 Take a look at the next bit of code which compiles like butter:
 
 ```

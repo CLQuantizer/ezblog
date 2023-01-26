@@ -27,7 +27,7 @@ Some languages use garbage collection, others need the programmer to manually al
 
 **A variable can own a value** --Albert Einstein
 
-This code here does not compile becuase  s1 was moved into s2: s1 ain't no more.
+First, look at this code which ain't compiling. The error is **"s1 has been moved."**
 ```
 fn main() {
     let s1 = String::from("hello");

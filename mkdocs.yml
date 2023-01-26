@@ -1,7 +1,7 @@
 site_name: Chez Ezio
 repo_url: https://github.com/CLQuantizer/ezblog
-extra_css:
-  - stylesheets/extra.css
+# extra_css:
+#   - stylesheets/extra.css
 
 theme:
     logo: assets/logo.png
@@ -31,10 +31,3 @@ nav:
     - blog/Rust_memory/Rust_owner.md
     - blog/Rust_memory/stack_heap.md
     - blog/Rust_memory/Rust_borrow_ref.md
-plugins:
-  - blog:
-      post_url_date_format: yyyy/MM/dd
-
-      
-      
-

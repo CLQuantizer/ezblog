@@ -87,4 +87,6 @@ You should always look for the Rust in other people. How is Rust talking to you?
 
 But heck, what about **thread**?
 Is a thread a function? A variable? What is a thread? 
-In Java, it is an instance of the **[Thread](https://docs.oracle.com/en/java/javase/19/docs/api/java.base/java/lang/Thread.html)** class which implements the **[Runnable](https://docs.oracle.com/en/java/javase/19/docs/api/java.base/java/lang/Runnable.html)** interface
+In Java, it is an instance of the **[Thread](https://docs.oracle.com/en/java/javase/19/docs/api/java.base/java/lang/Thread.html)** class which implements the **[Runnable](https://docs.oracle.com/en/java/javase/19/docs/api/java.base/java/lang/Runnable.html)** interface.
+
+What is a thread in Rust? Let's do another article on thread.

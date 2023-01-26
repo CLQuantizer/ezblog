@@ -18,7 +18,9 @@ We'll return to these later, or not.
 
 Borrowing is demostrated [here](/blog/Rust_memory/Rust_owner/), but there is more. 
 
-In short, in Rust world, borrowing is the action of creating a reference. The real life analogy of borrowing a pen from a colleague does not work here. This is because in Rust, a borrowed value cannot be modified.
+In short, in Rust world, **borrowing is the action of creating a reference**.
+
+The real life analogy of borrowing a pen from a colleague does not seem work here. This is because in Rust, a borrowed value cannot be modified. By writing with the pen, you modify the amount of ink in it. By borrowing the Mona List, you take away 1/3 of the revenue of the Louvre according to some study of Harvard University in 1876.
 
 When Sam Bankman-Fried, creator of FTX, sun of Jeseph Bankman from the land of freedom and prosperity the United States of America, borrowed the money from its users, did he not modify the money? Hell yeh he did, and in the wildest **[dactylic hexameter](https://en.wikipedia.org/wiki/Dactylic_hexameter)** you can imagine.
 
@@ -27,16 +29,48 @@ When Sam Bankman-Fried, creator of FTX, sun of Jeseph Bankman from the land of f
 Compilation failures are always the best for learning:
 ```
 fn main() {
-    let s = String::from("hello");
-
-    change(&s);
+    let s1 = String::from("Kaggle");
+    borrows(&s1);
+    println!("{}", s1);
 }
 
-fn change(some_string: &String) {
-    some_string.push_str(", world");
+fn borrows(prey: &String){
+    prey.push_str(" is so dead");
 }
+
 ```
 The help message from the compiler is:
     ------- help: consider changing this to be a mutable reference: `&mut String`
 
+So that is what I did to turn it into the program below. Note that s1 has to be declared **mut** too. Otherwise it ain't compile.
 
+```
+fn main() {
+    let mut s1 = String::from("Kaggle");
+    borrows(&mut s1);
+    println!("{}", s1);
+
+}
+
+fn borrows(prey: &mut String){
+    prey.push_str(" is so dead");
+}
+```
+
+It compiles and says Kaggle is so dead.
+
+Up to this point, it seems that a mutable reference is **a mutable reference to a mutable variable**. 
+
+Let's table these babies shall we?
+
+|           | mut var          | immu var      |
+|-----------|------------------|---------------|
+| mut ref   | ✔️ one and only ❤️ | x             |
+| immut ref | ✔️ promiscuous    | ✔️ promiscuous |
+
+I'm not even sure if this correct. Lol.
+
+## Answers to questions:
+- To borrow is to refer
+- What is mutable in a mutable reference is the value borrowed from a poor mutable variable.
+- What is immutable in a immutable reference is, well, I don't care.

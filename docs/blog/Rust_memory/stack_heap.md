@@ -17,4 +17,4 @@ Comparatively, allocating space on the heap requires more work because the alloc
 Accessing data in the heap is slower than accessing data on the stack because you have to follow a pointer to get there. Contemporary processors **are faster if they jump around less in memory**. 
 
 ## Owenership x stack & heap 
-Once you understand [ownership](/blog/posts/Rust_owner/), you won’t need to think about the stack and the heap very often, but knowing that the main purpose of ownership is to manage heap data can help explain why it works the way it does.
+Once you understand [ownership](/blog/Rust_memory/Rust_owner/), you won’t need to think about the stack and the heap very often, but knowing that the main purpose of ownership is to manage heap data can help explain why it works the way it does.

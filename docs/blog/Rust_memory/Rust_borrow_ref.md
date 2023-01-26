@@ -65,7 +65,7 @@ Let's table these babies shall we?
 
 |           | mut var          | immu var      |
 |-----------|------------------|---------------|
-| mut ref   | ✔️ one and only ❤️ | ❌            |
+| mut ref   | ✔️ one and only ❤️ | ⛌             |
 | immut ref | ✔️ promiscuous    | ✔️ promiscuous |
 
 I'm not even sure if this correct. Lol.

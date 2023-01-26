@@ -1,3 +1,9 @@
+---
+draft: true 
+date: 2023-01-26
+categories:
+  - Rust
+---
 # Borrows and References
 
 First up, here are some Casses-tête chinois from [rust-lang](https://doc.rust-lang.org/book/ch04-02-references-and-borrowing.html):

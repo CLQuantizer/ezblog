@@ -1,3 +1,6 @@
+---
+date: 2023-01-26
+---
 # Ownership in Rust
 
 ## Here I want to ask:

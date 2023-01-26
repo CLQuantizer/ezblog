@@ -1,3 +1,10 @@
+---
+draft: true 
+date: 2023-01-26
+categories:
+  - Rust
+---
+
 # The Stack and the Heap
 
 ### This blog is adapted from [rust-lang](https://doc.rust-lang.org/book/ch04-01-what-is-ownership.html#:~:text=Ownership%20is%20a%20set%20of,a%20computer's%20memory%20while%20running.)

@@ -5,9 +5,14 @@
 - What can be an owner in Rust? Thread? Scope? Function? Variable?
 - Are there any differences among these ownerships?
 
+## Short answers to our questions
+
+- Owners include functions and variables. They own values (but what are values?)
+- Ownership is ownership. It is memroy talk. 
+
 ## The problem of mem alloc
 
-In most languages without a GC, when mem is not used anymore, programmers should call code to explicitly free it, just as when they requested it. 
+In most languages without a GC, when mem is not used anymore, programmers should call code to explicitly free it, just as when they requested it.
 
 This is difficult. If we forget, we’ll waste memory. If we do it too early, we’ll have an invalid variable. If we do it twice, that’s a bug too. We need to pair exactly one allocate with exactly one free.
 

@@ -7,4 +7,6 @@ categories:
 
 # I want to learn Rust
 
-Here are things that I love about Rust:
+Here is a list of things that I love about Rust:
+
+- The potential to get paid a lot

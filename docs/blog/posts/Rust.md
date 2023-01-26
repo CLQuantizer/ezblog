@@ -5,6 +5,6 @@ categories:
   - Rust
 ---
 
-## I want to learn Rust
+# I want to learn Rust
 
-Here are things that I love about Rust
+Here are things that I love about Rust:

@@ -12,10 +12,9 @@
 
 ## The problem of mem alloc
 
-In most languages without a GC, when mem is not used anymore, programmers should call code to explicitly free it, just as when they requested it.
+In most languages without a GC, when a chunk of memory ain't used anymore, programmers should call code to explicitly free it, just as when they requested it.
 
-This is difficult. If we forget, we’ll waste memory. If we do it too early, we’ll have an invalid variable. If we do it twice, that’s a bug too. We need to pair exactly one allocate with exactly one free.
-
+This is difficult: if we forget to free, we’ll waste memory. If we do it too early, we’ll have an invalid variable. If we do it twice, that’s a bug too. We need to pair exactly one **allocate** with exactly one **free**.
 ## The third way (adapted from [rust-lang.org](https://doc.rust-lang.org/book/ch04-01-what-is-ownership.html#:~:text=Ownership%20is%20a%20set%20of,a%20computer's%20memory%20while%20running.))
 
 Ownership is **a set of rules** that govern how a Rust program manages memory. 
@@ -85,3 +84,7 @@ fn takes_and_returns(prey: String) -> String{
 It is simple as that: the soul of the prey was returned and bound to s1 again. This resurrection is epic and deeply personal. 
 
 You should always look for the Rust in other people. How is Rust talking to you? What does ownership mean to you? How can you realize yourself in Rust. Join our Rust reading group to get closer to Rust. We have free pizza afterwards as well.
+
+But heck, what about **thread**?
+Is a thread a function? A variable? What is a thread? 
+In Java, it is an instance of the **[Thread](https://docs.oracle.com/en/java/javase/19/docs/api/java.base/java/lang/Thread.html)** class which implements the **[Runnable](https://docs.oracle.com/en/java/javase/19/docs/api/java.base/java/lang/Runnable.html)** interface

@@ -20,10 +20,11 @@ theme:
           name: Switch to light mode
 
 nav:
-  - index.md
-  - blog/posts/Rust.md
-  - blog/posts/core_dump.md
-  - blog/posts/post_construct.md
+  - blog/Rust.md
+  - Java:  
+    - blog/java/post_construct.md
+  - Dinosaurs:
+    - blog/dinosaurs/core_dump.md
   - Poetry:
     - blog/poetry/Sparks.md
   - Rust_memory:

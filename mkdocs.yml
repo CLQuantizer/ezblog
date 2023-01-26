@@ -29,7 +29,7 @@ nav:
   - Rust_memory:
     - blog/Rust_memory/Rust_owner.md
     - blog/Rust_memory/stack_heap.md
-
+    - blog/Rust_memory/Rust_borrow_ref.md
 plugins:
   - blog:
       post_url_date_format: yyyy/MM/dd

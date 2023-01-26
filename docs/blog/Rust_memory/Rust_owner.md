@@ -43,11 +43,20 @@ But alas, the dark magic of Lord Voldemort can copy the soul of s1 while breathi
 
 ## Example 2: Ownership x Functions
 
-**A function can own a value** --Ludwig Von Neumann
-
 The page says: **"Passing a value to a function is like binding a value to a variable"**
 I never thought about it that way. Interesting innit? The next thing is naturally: **"Passing a variable to a function will move or copy, just as assignment does"**
 
-Passing a variable to a function will move or copy, just as assignment does
+**A function can own a value** --Ludwig Von Neumann
+Take a look at the next bit of code which ain't compiling because:  **"value borrowed after move"**
+```
+fn main() {
+    let s1 = String::from("Kaggle");
+    take_soul_of_prey(s1);
+    println!("I am {}", s1);
+}
 
-Passing a variable to a function will move or copy, just as assignment does. Listing 4-3 has an example with some annotations showing where variables go into and out of scope.
+fn take_soul_of_prey(prey: String){
+    println!("I own the soul of {}", prey);
+}
+```
+It is quite clear that the soul of the prey ("Kaggle" of type String) is taken. But if the prey ain't got a soul, that is, if they are a integer of a cxxxxnist who do not live on the heap with normal people, they are fine.

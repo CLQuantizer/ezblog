@@ -8,7 +8,7 @@ The Rules of References
 
 We'll return to these later, or not.
 
-## I ask ~~two~~ three questions here:
+## I ask three questions here:
 
 - What is mutable in a mutable reference?
 - What is immutable in an immutable reference?

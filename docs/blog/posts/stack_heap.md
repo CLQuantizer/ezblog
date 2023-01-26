@@ -1,6 +1,6 @@
 # The Stack and the Heap
 
-### Adapted from [rust-lang](https://doc.rust-lang.org/book/ch04-01-what-is-ownership.html#:~:text=Ownership%20is%20a%20set%20of,a%20computer's%20memory%20while%20running.)
+### This blog is adapted from [rust-lang](https://doc.rust-lang.org/book/ch04-01-what-is-ownership.html#:~:text=Ownership%20is%20a%20set%20of,a%20computer's%20memory%20while%20running.)
 
 Both the stack and the heap are parts of memory available to your code to use at runtime.
 

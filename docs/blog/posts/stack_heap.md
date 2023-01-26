@@ -1,6 +1,7 @@
 # The Stack and the Heap
 
-## Below is adapted from [rust-lang](https://doc.rust-lang.org/book/ch04-01-what-is-ownership.html#:~:text=Ownership%20is%20a%20set%20of,a%20computer's%20memory%20while%20running.)
+### Adapted from [rust-lang](https://doc.rust-lang.org/book/ch04-01-what-is-ownership.html#:~:text=Ownership%20is%20a%20set%20of,a%20computer's%20memory%20while%20running.)
+
 Both the stack and the heap are parts of memory available to your code to use at runtime.
 
 ## Stack
@@ -15,5 +16,5 @@ Comparatively, allocating space on the heap requires more work because the alloc
 
 Accessing data in the heap is slower than accessing data on the stack because you have to follow a pointer to get there. Contemporary processors **are faster if they jump around less in memory**. 
 
-## Owenership to stack and heap
-Once you understand ownership, you won’t need to think about the stack and the heap very often, but knowing that the main purpose of ownership is to manage heap data can help explain why it works the way it does.
+## Owenership to stack and heap 
+Once you understand [ownership](/blog/posts/Rust_owner/), you won’t need to think about the stack and the heap very often, but knowing that the main purpose of ownership is to manage heap data can help explain why it works the way it does.

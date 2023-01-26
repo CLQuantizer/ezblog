@@ -14,15 +14,15 @@ We'll return to these later, or not.
 - What is immutable in an immutable reference?
 - What does it mean to borrow?
 
-## Related to Example 3 in [here](/blog/Rust_memory/Rust_owner/)
-
-Borrowing is demostrated [here](/blog/Rust_memory/Rust_owner/), but there is more. 
+## Borrowing has been shown [here](/blog/Rust_memory/Rust_owner/)
 
 In short, in Rust world, **borrowing is the action of creating a reference**.
 
 The real life analogy of borrowing a pen from a colleague does not seem work here. This is because in Rust, a borrowed value cannot be modified. By writing with the pen, you modify the amount of ink in it. By borrowing the Mona List, you take away 1/3 of the revenue of the Louvre according to some study of Harvard University in 1876.
 
 When Sam Bankman-Fried, creator of FTX, sun of Jeseph Bankman from the land of freedom and prosperity the United States of America, borrowed the money from its users, did he not modify the money? Hell yeh he did, and in the wildest **[dactylic hexameter](https://en.wikipedia.org/wiki/Dactylic_hexameter)** you can imagine.
+
+And, there are two types of borrowing/referencing in Rust: mut ref and immut ref  
 
 ## Mutable reference by example
 

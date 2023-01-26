@@ -23,7 +23,10 @@ Some languages use garbage collection, others need the programmer to manually al
 - There can only be one owner at a time.
 - When the owner goes out of scope, the value will be dropped.
 
-## Example 1: Variable and Value
+## Example 1: Ownership x Variables
+
+**A variable can own a value** --Albert Einstein
+
 This code here does not compile becuase  s1 was moved into s2: s1 ain't no more.
 ```
 fn main() {
@@ -38,7 +41,9 @@ It could be: s1 owned the value of s1 and now s2 owns it. There is only 1 copy o
 
 But alas, the dark magic of Lord Voldemort can copy the soul of s1 while breathing life into s2. He can have the soul and eat it too. I don't know if Trump can do the same sorta thing.
 
-## Example 2: Ownership and Functions
+## Example 2: Ownership x Functions
+
+**A function can own a value** --Ludwig Von Neumann
 
 The page says: **"Passing a value to a function is like binding a value to a variable"**
 I never thought about it that way. Interesting innit? The next thing is naturally: **"Passing a variable to a function will move or copy, just as assignment does"**

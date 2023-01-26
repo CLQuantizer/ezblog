@@ -12,7 +12,7 @@
 
 ## The problem of mem alloc
 
-In most languages without a GC, when a chunk of memory ain't used anymore, programmers should call code to explicitly free it, just as when they requested it.
+In most languages without a Garbage Collector, when a chunk of memory ain't used anymore, programmers should call code to explicitly free it, just as when they requested it.
 
 This is difficult: if we forget to free, we’ll waste memory. If we do it too early, we’ll have an invalid variable. If we do it twice, that’s a bug too. We need to pair exactly one **allocate** with exactly one **free**.
 ## The third way (adapted from [rust-lang.org](https://doc.rust-lang.org/book/ch04-01-what-is-ownership.html#:~:text=Ownership%20is%20a%20set%20of,a%20computer's%20memory%20while%20running.))

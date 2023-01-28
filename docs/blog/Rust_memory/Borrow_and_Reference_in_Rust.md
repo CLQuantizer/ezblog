@@ -4,7 +4,7 @@ date: 2023-01-26
 categories:
   - Rust
 ---
-# Borrows and References
+## Borrows and References
 
 First up, here are some Casses-tête chinois from [rust-lang](https://doc.rust-lang.org/book/ch04-02-references-and-borrowing.html):
 The Rules of References
@@ -20,7 +20,7 @@ We'll return to these later, or not.
 - What is immutable in an immutable reference?
 - What does it mean to borrow?
 
-## Borrowing has been shown [here](/blog/Rust_memory/Rust_owner/)
+## Borrowing has been shown [here](/Ownership_in_Rust)
 
 In short, in Rust world, **borrowing is the action of creating a reference**.
 

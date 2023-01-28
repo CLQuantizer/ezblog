@@ -28,6 +28,10 @@ nav:
   - Poetry:
     - blog/poetry/Sparks.md
   - Rust_memory:
-    - blog/Rust_memory/Rust_owner.md
-    - blog/Rust_memory/stack_heap.md
-    - blog/Rust_memory/Rust_borrow_ref.md
+    - blog/Rust_memory/Ownership_in_Rust.md
+    - blog/Rust_memory/Stack_and_heap.md
+    - blog/Rust_memory/Borrow_and_Reference_in_Rust.md
+  - LeetCode 206:
+    - blog/leetcode_206/LeetCode_206_is_my_fav.md
+    - blog/leetcode_206/No.1 MokuHazushi.md
+    - blog/leetcode_206/What_on_earth_is_if_let_Some(x)=&x{}.md

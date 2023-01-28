@@ -1,9 +1,9 @@
-# What on earth is ```if let Some(x)=&x{}```?
+## What on earth is ```if let Some(x)=&x{}```?
 
 This is the question 
 
 I asked ChatGPT how ```if let Some(cat) = &cat {}``` works in Rust.
-The responde was:
+The response was:
 
 The if let syntax in Rust is a shorthand for a match expression that only matches **on a single variant of an enum.**
 
@@ -42,4 +42,6 @@ This will not print anything as the value of cat is None.
 
 ### Conclusion
 
-```if let``` is often used when you know the variant of an enum that a value will have, but you don't need to use all of the fields in that variant. It can make the code more concise and readable.
+ChatGPT has explained it really clearly: 
+
+Apparently, ```if let``` is often used when you know the variant of an enum that a value will have, but you don't need to use all of the fields in that variant. It can make the code more concise and readable.

@@ -1,9 +1,7 @@
 ---
 date: 2023-01-26
 ---
-# Ownership in Rust
-
-## Here I want to ask:
+## About ownership in Rust, here's what I want to ask:
 
 - What can be an owner in Rust? Thread? Scope? Function? Variable?
 - Are there any differences among these ownerships?

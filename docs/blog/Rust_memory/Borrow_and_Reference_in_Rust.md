@@ -20,7 +20,7 @@ We'll return to these later, or not.
 - What is immutable in an immutable reference?
 - What does it mean to borrow?
 
-## Borrowing has been shown [here](/Ownership_in_Rust)
+## Borrowing has been shown [here](/blog/Rust_memory/Ownership_in_Rust)
 
 In short, in Rust world, **borrowing is the action of creating a reference**.
 

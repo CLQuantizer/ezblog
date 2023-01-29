@@ -1,8 +1,5 @@
----
-draft: true 
-date: 2023-01-26
-categories:
-  - Rust
+--- 
+    date: 2023-01-26
 ---
 ## Borrows and References
 

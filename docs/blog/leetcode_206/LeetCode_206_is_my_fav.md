@@ -1,5 +1,5 @@
 ---
-date: 2023-01-28
+    date: 2023-01-28
 ---
 
 LeetCode[No.1 MokuHazushi.md](No.1%20MokuHazushi.md) 206 is my all-time favourite algo problem, much more than 2sum.

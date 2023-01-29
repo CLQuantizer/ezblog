@@ -1,5 +1,5 @@
 ---
-date: 2023-01-24
+    date: 2023-01-28
 ---
 ### [MokuHazushi the humble starter](https://leetcode.com/problems/reverse-linked-list/solutions/1980282/rust-iterative/)
 

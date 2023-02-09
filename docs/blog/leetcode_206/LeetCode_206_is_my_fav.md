@@ -1,5 +1,8 @@
+---
+    date: 2023-01-28
+---
 
-LeetCode 206 is my all-time favourite algo problem, much more than 2sum.
+LeetCode[No.1 MokuHazushi.md](No.1%20MokuHazushi.md) 206 is my all-time favourite algo problem, much more than 2sum.
 In this section, I lay all the 0ms-beats-100% answers together, compare them, and comment on their code, in order to learn a thing or two while having fun.
 
 ### The settings for Rust

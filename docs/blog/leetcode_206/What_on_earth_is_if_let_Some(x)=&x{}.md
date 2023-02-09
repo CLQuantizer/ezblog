@@ -1,6 +1,7 @@
 ---
     date: 2023-01-28
 ---
+28/01/2023
 
 ## What on earth is ```if let Some(x)=&x{}```?
 

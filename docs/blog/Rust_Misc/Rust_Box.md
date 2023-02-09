@@ -2,6 +2,8 @@
     Date: 2013-01-29
 ---
 
+29/01/2023
+
 I ask this question: what does Box<T> do in Rust?
 
 ChatGPT says:

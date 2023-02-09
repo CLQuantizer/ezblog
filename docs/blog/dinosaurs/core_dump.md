@@ -3,6 +3,7 @@ date: 2023-01-22
 authors:
   - ezio
 ---
+22/01/2023
 # Core dumped
 
 ### I am asking two questions: 

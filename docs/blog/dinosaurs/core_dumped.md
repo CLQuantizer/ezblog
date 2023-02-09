@@ -3,9 +3,10 @@ date: 2023-01-22
 authors:
   - ezio
 ---
-# Core dumped
 
-### I am asking two questions: 
+22/01/2023
+
+## I am asking two questions: 
   - What is core? 
   - Where is it dumped to?
 ## **A not so good explanation**

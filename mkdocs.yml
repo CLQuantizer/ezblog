@@ -36,4 +36,4 @@ nav:
     - blog/leetcode_206/No.1 MokuHazushi.md
     - blog/leetcode_206/What_on_earth_is_if_let_Some(x)=&x{}.md
     - blog/leetcode_206/My_recursive_solution.md
-    - blog/leetcode_206/My_iter.md
+    - blog/leetcode_206/My_iterative_solution.md

@@ -3,10 +3,10 @@ date: 2023-01-22
 authors:
   - ezio
 ---
-22/01/2023
-# Core dumped
 
-### I am asking two questions: 
+22/01/2023
+
+## I am asking two questions: 
   - What is core? 
   - Where is it dumped to?
 ## **A not so good explanation**
@@ -83,6 +83,3 @@ There are various circumstances in which a core dump file is not produced:
 -  (Since Linux 3.7) The kernel was configured without the CONFIG_COREDUMP option.
 
 In addition, a core dump may exclude part of the address space of the process if the madvise(2) MADV_DONTDUMP flag was employed.
-
-On systems that employ systemd(1) as the init framework, core dumps may instead be placed in a location determined by systemd(1).  See below for further details.
-```

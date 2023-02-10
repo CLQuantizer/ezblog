@@ -1,6 +1,8 @@
 ---
 date: 2023-01-26
 ---
+26/01/2023
+
 ## About ownership in Rust, here's what I want to ask:
 
 - What can be an owner in Rust? Thread? Scope? Function? Variable?

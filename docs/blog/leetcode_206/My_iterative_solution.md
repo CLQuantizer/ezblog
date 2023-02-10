@@ -1,7 +1,7 @@
+09/02/2023
 ## Here is my iterative solution 
 
-Apparently it is not as elegant as the recursive one.
-Too many mutables and shit. D'youknowaImean?
+Apparently, it is not as elegant as the recursive one: there's too many mutables and shit. D'youknowaImean?
 
 ```Rust
 type N = Option<Box<ListNode>>;

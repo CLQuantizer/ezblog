@@ -32,6 +32,8 @@ nav:
     - blog/Rust_memory/Ownership_in_Rust.md
     - blog/Rust_memory/Stack_and_heap.md
     - blog/Rust_memory/Borrow_and_Reference_in_Rust.md
+  - Generic LeetCode :
+    - blog/leetcode_generic/LeetCode_Two_Sum.md
   - LeetCode 206:
     - blog/leetcode_206/LeetCode_206_is_my_fav.md
     - blog/leetcode_206/No.1 MokuHazushi.md

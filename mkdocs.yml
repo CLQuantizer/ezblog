@@ -21,6 +21,8 @@ theme:
 
 nav:
   - blog/Rust.md
+  - Epistemology:
+    - blog/Epistemology/EPDPistemology.md
   - Java:  
     - blog/java/post_construct.md
     - blog/java/WTF_is_a_chronicle_queue?.md

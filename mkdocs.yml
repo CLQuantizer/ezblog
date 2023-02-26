@@ -37,6 +37,7 @@ nav:
   - Generic LeetCode :
     - blog/leetcode_generic/LeetCode_Two_Sum.md
     - blog/leetcode_generic/Leetcode_136_single_number.md
+    - blog/leetcode_generic/Leetcode_83_remove_duplicate_from_list.md
   - LeetCode 206:
     - blog/leetcode_206/LeetCode_206_is_my_fav.md
     - blog/leetcode_206/No.1 MokuHazushi.md

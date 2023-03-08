@@ -5,7 +5,7 @@
 
 ### [MokuHazushi the humble starter](https://leetcode.com/problems/reverse-linked-list/solutions/1980282/rust-iterative/)
 
-```rust
+```Rust
 impl Solution {
     pub fn reverse_list(head: Option<Box<ListNode>>) -> Option<Box<ListNode>> {
         let mut cur_node = None;

@@ -23,7 +23,7 @@ which makes it easy to avoid memory leaks.
 
 Here is an example of using a Box<T> to **store a string on the heap**:
 
-```
+```Rust
 let b = Box::new(String::from("Hello, World!"));
 println!("{}", b);
 ```
@@ -34,7 +34,7 @@ ChatGPT does not actually know this.
 Box<T> is also used when you want to store a struct on the heap 
 and also want to get the ownership of the data, for example:
 
-```
+```Rust
 struct MyStruct {
     data: i32,
 }

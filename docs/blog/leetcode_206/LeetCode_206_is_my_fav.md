@@ -8,7 +8,7 @@ LeetCode[No.1 MokuHazushi.md](No.1%20MokuHazushi.md) 206 is my all-time favourit
 In this section, I lay all the 0ms-beats-100% answers together, compare them, and comment on their code, in order to learn a thing or two while having fun.
 
 ### The settings for Rust
-```
+```Rust
 Definition for singly-linked list.
 #[derive(PartialEq, Eq, Clone, Debug)]
 pub struct ListNode {

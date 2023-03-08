@@ -26,7 +26,7 @@ And this code block will only execute if cat is Some(cat).**
 
 For example,
 
-```
+```Rust
 let cat = Some("Whiskers");
 if let Some(cat) = &cat {
     println!("{}",cat);
@@ -36,7 +36,7 @@ This will print "Whiskers" on the console as the value of cat is **Some("Whisker
 
 On the other hand, if cat is None, the code block inside the if let will not be executed.
 
-```
+```Rust
 let cat = None;
 if let Some(cat) = &cat {
     println!("{}",cat);

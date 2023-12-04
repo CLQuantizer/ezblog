@@ -21,7 +21,7 @@ theme:
 
 nav:
   - blog/Rust.md
-  - devOps:
+  - DevOps:
     - blog/devOps/certbot.md
     - blog/devOps/daemonization.md
   - Epistemology:

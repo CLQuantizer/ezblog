@@ -10,7 +10,7 @@ theme:
       # Palette toggle for light mode
       - scheme: default
         toggle:
-          icon: material/brightness-7 
+          icon: material/brightness-7
           name: Switch to dark mode
 
       # Palette toggle for dark mode
@@ -21,9 +21,12 @@ theme:
 
 nav:
   - blog/Rust.md
+  - devOps:
+      -blog/devOps/certbot.md
+      -blog/devOps/daemonization.md
   - Epistemology:
     - blog/Epistemology/EPDPistemology.md
-  - Java:  
+  - Java:
     - blog/java/post_construct.md
     - blog/java/WTF_is_a_chronicle_queue?.md
   - Dinosaurs:
@@ -48,7 +51,7 @@ nav:
     - blog/Rust_Misc/Rust_Box.md
     - blog/Rust_Misc/Rust_Option.md
     - blog/Rust_Misc/Rust_ref_deref.md
-    
+
 markdown_extensions:
   - abbr
   - admonition
